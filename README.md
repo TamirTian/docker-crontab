@@ -1,6 +1,6 @@
 # docker-crontab
 ```
-docker run -e COMMAND='echo hellow world' -e CRONTAB='*/1 * * * * *' 94tamir/crontab
+ docker run -e COMMAND='echo hellow world' -e CRONTAB='*/1 * * * * *' 94tamir/crontab
 ```
 
 ```
