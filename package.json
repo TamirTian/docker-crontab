@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "node-cron": "^2.0.3"
+  },
+  "name": "crontab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "hello": "COMMAND='echo hello world' CRONTAB='*/10 * * * * *' node index.js",
+    "google": "COMMAND='curl -m 5 www.google.com' CRONTAB='*/10 * * * * *' node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
